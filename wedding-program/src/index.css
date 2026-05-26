@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Playfair+Display:wght@400;700&display=swap');
+
+:root {
+  /* Wedding palette */
+  --primary: #c3cec1; /* primary */
+  --primary-dark: #6b705c; /* primary-dark */
+  --secondary: #e7cac2; /* secondary */
+  --secondary-dark: #d7a49a; /* secondary-dark */
+  --bg: #ede9e3; /* page background */
+  --text: #000000; /* main text color */
+
+  /* derived */
+  --text-h: var(--primary-dark);
+  --border: rgba(107,112,92,0.18);
+  --code-bg: rgba(255,255,255,0.6);
+  --accent: var(--primary);
+  --accent-bg: rgba(195,206,193,0.14);
+  --accent-border: rgba(107,112,92,0.25);
+  --social-bg: rgba(231,202,194,0.28);
+  --shadow: rgba(0,0,0,0.06) 0 8px 12px -4px;
+
+  /* fonts */
+  --sans: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+  --heading: 'Playfair Display', serif;
+  --script: 'Allura', cursive;
+  --mono: ui-monospace, SFMono-Regular, Menlo, Monaco, 'Roboto Mono', monospace;
+
+  font: 18px/145% var(--sans);
+  letter-spacing: 0.18px;
+  color-scheme: light;
+  color: var(--text);
+  background: var(--bg);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  @media (max-width: 1024px) {
+    font-size: 16px;
+  }
+}
+
+/* Keep site in light wedding palette; dark-mode adjustments are intentionally minimal */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #e6e3dd;
+    --text: #000000;
+    --code-bg: rgba(255,255,255,0.04);
+  }
+}
+
+body {
+  margin: 0;
+}
+
+#root {
+  width: 1126px;
+  max-width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  border-inline: 1px solid var(--border);
+  min-height: 100svh;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+h2 {
+  font-family: var(--heading);
+  color: var(--text-h);
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 118%;
+  letter-spacing: -0.24px;
+  margin: 0 0 8px;
+  @media (max-width: 1024px) {
+    font-size: 20px;
+  }
+}
+
+h1 {
+  /* use script for the couple names / hero */
+  font-family: var(--script);
+  color: var(--primary-dark);
+  font-size: 64px;
+  margin: 28px 0 8px;
+  line-height: 1.02;
+  @media (max-width: 1024px) {
+    font-size: 40px;
+    margin: 16px 0;
+  }
+}
+p {
+  margin: 0;
+}
+
+code,
+.counter {
+  font-family: var(--mono);
+  display: inline-flex;
+  border-radius: 4px;
+  color: var(--text-h);
+}
+
+code {
+  font-size: 15px;
+  line-height: 135%;
+  padding: 4px 8px;
+  background: var(--code-bg);
+}
