@@ -1,5 +1,5 @@
 import React from 'react'
-
+// TODO: Add menu and drinks details
 export default function MenuDrinks({ menu = {}, drinks = [] }) {
   return (
     <div className="menu-drinks">

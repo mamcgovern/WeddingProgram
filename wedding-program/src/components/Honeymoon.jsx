@@ -1,5 +1,5 @@
 import React from 'react'
-
+// TODO: Add honeymoon details
 export default function Honeymoon({ info }) {
   if (!info) return null
   return (

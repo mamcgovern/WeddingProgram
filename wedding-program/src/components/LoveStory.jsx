@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from 'react'
 import timelineData from '../data/loveStory.json'
-// TODO Make sure the circles are centered horizontally on mobile
+// TODO: make sure the circles are centered horizontally on mobile
 
 export default function LoveStory() {
   const timeline = timelineData || []

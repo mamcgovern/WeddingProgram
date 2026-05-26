@@ -1,6 +1,6 @@
 import React from 'react'
 import sampleData from '../data/sampleData'
-
+// TODO: Add photos and make it look nice
 export default function Cover({ onEnter }) {
   return (
     <section className="cover">

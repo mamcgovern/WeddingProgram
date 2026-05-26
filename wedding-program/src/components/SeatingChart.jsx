@@ -1,5 +1,5 @@
 import React from 'react'
-
+// TODO: Add seating chart details
 export default function SeatingChart({ seating = [] }) {
   return (
     <div className="seating">
