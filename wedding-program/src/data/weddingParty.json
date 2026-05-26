@@ -4,13 +4,13 @@
             "name": "Maddelynne McGovern",
             "role": "Bride",
             "description": "",
-            "photo": "/images/Maddelynne.JPG"
+            "photo": "/images/weddingParty/Maddelynne.JPG"
         },
         {
             "name": "Nicholas Bergan",
             "role": "Groom",
             "description": "",
-            "photo": "/images/Nick.jpg"
+            "photo": "/images/weddingParty/Nick.jpg"
         }
     ],
     "parents": [
@@ -40,97 +40,97 @@
             "name": "Sydni Edgington",
             "role": "Maid of Honor",
             "description": "Sydni and Maddie met as student employees in WiSE at Iowa State and have been close friends ever since.",
-            "photo": "/images/Sydni.jpeg"
+            "photo": "/images/weddingParty/Sydni.jpeg"
         },
         {
             "name": "Nathan Wilson",
             "role": "Best Man",
             "description": "Nathan is Nick’s friend, Vermeer coworker, and former roommate.",
-            "photo": "/images/Nathan.jpeg"
+            "photo": "/images/weddingParty/Nathan.jpeg"
         },
         {
             "name": "Elizabeth Cardey",
             "role": "Bridesmaid",
             "description": "Lizzy is Maddie’s cousin and built in best friend, born just a few months before her.",
-            "photo": "/images/Elizabeth.jpeg"
+            "photo": "/images/weddingParty/Elizabeth.jpeg"
         },
         {
             "name": "Kurt Cardey",
             "role": "Groomsman",
             "description": "Kurt is Maddie’s cousin Elizabeth’s husband and works as a mechanic.",
-            "photo": "/images/Kurt.jpeg"
+            "photo": "/images/weddingParty/Kurt.jpeg"
         },
         {
             "name": "Taylor Bergan",
             "role": "Bridesmaid",
             "description": "Taylor is Nick’s twin sister. She studied Animal Science at Iowa State University with a focus on horses. ",
-            "photo": "/images/Taylor.jpeg"
+            "photo": "/images/weddingParty/Taylor.jpeg"
         },
         {
             "name": "Quentin Kelso",
             "role": "Groomsman",
             "description": "Quentin is Nick’s friend and coworker at Vermeer.",
-            "photo": "/images/Quentin.jpeg"
+            "photo": "/images/weddingParty/Quentin.jpeg"
         },
         {
             "name": "Emily Curry",
             "role": "Bridesmaid",
             "description": "Emily is Nick’s older sister and serves in the Colorado Army National Guard alongside her husband, Ben.",
-            "photo": "/images/Emily.jpeg"
+            "photo": "/images/weddingParty/Emily.jpeg"
         },
         {
             "name": "Sam Bergan",
             "role": "Groomsman",
             "description": "Sam is Nick’s older brother, a music teacher, and proud dad to flower girl Nori.",
-            "photo": "/images/Sam.jpeg"
+            "photo": "/images/weddingParty/Sam.jpeg"
         },
         {
             "name": "Mary McGovern",
             "role": "Bridesmaid",
             "description": "Mary is Maddie’s sister in law. Mary loves to travel, and Maddie actually got to meet Mary on a trip to Dubai.",
-            "photo": "/images/Kay.jpeg"
+            "photo": "/images/weddingParty/Kay.jpeg"
         },
         {
             "name": "Damien McGovern",
             "role": "Groomsman",
             "description": "Damien is Maddie’s oldest brother, a former Marine, and now an engineer at Lockheed Martin.",
-            "photo": "/images/Damien.jpeg"
+            "photo": "/images/weddingParty/Damien.jpeg"
         },
         {
             "name": "Toph McGovern",
             "role": "Bridesmaid",
             "description": "Toph is Maddie’s youngest sibling who loves horror movies, video games, and Nicki Minaj.",
-            "photo": "/images/Toph.jpeg"
+            "photo": "/images/weddingParty/Toph.jpeg"
         },
         {
             "name": "Henry Hayes",
             "role": "Groomsman",
             "description": "Henry and Nick met through Iowa State Power Pullers on the software and electrical teams.",
-            "photo": "/images/Henry.jpeg"
+            "photo": "/images/weddingParty/Henry.jpeg"
         },
         {
             "name": "Kay McGovern",
             "role": "Bridesmaid",
             "description": "Kay is Maddie’s younger sibling and proud pet parent to 3 dogs and 1 very spoiled cat.",
-            "photo": "/images/Kay.jpeg"
+            "photo": "/images/weddingParty/Kay.jpeg"
         },
         {
             "name": "John Anderson",
             "role": "Groomsman",
             "description": "John and Nick met in Iowa State Power Pullers while working on the electrical team together.",
-            "photo": "/images/John.jpeg"
+            "photo": "/images/weddingParty/John.jpeg"
         },
         {
             "name": "Nori Bergan",
             "role": "Flower Girl",
             "description": "",
-            "photo": "/images/Nori.jpeg"
+            "photo": "/images/weddingParty/Nori.jpeg"
         },
         {
             "name": "George McGovern",
             "role": "Ring Bearer",
             "description": "",
-            "photo": "/images/George.jpeg"
+            "photo": "/images/weddingParty/George.jpeg"
         }
     ]
 }

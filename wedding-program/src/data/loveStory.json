@@ -1,0 +1,50 @@
+[
+    {
+        "event": "First Meeting",
+        "date": "02-09-2025",
+        "description": "We met for the first time at a mutual friend's superbowl party.",
+        "photo": "/images/loveStory/superbowl.jpg"
+    },
+    {
+        "event": "First DM",
+        "date": "03-29-2025",
+        "description": "We exchanged our first direct messages on social media.",
+        "photo": ""
+    },
+    {
+        "event": "First Date",
+        "date": "04-18-2025",
+        "description": "We watched Talladega Nights.",
+        "photo": ""
+    },
+    {
+        "event": "First Tractor Show",
+        "date": "08-23-2025",
+        "description": "We attended our first tractor show together.",
+        "photo": ""
+    },
+    {
+        "event": "First Vacation",
+        "date": "12-04-2025",
+        "description": "We went on our first vacation together in St. Louis where we attended the Gateway Dirt Nationals.",
+        "photo": ""
+    },
+    {
+        "event": "The Proposal",
+        "date": "12-13-2025",
+        "description": "Nick proposed to Maddie at the Greater Des Moines Botanical Garden in the middle of the holiday lights display.",
+        "photo": ""
+    },
+    {
+        "event": "Engagement Party",
+        "date": "05-24-2026",
+        "description": "We celebrated our engagement with our immediate family.",
+        "photo": ""
+    },
+    {
+        "event": "The Wedding",
+        "date": "04-24-2027",
+        "description": "We are getting married at Windmill Hill in Manchester, Iowa!",
+        "photo": ""
+    }
+]

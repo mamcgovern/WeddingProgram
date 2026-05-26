@@ -14,6 +14,21 @@ import sampleData from './data/sampleData'
 
 function App() {
   const [page, setPage] = useState('cover')
+  const PAGES = [
+    { id: 'cover', label: 'Home' },
+    { id: 'wedding-party', label: 'Wedding Party' },
+    { id: 'love-story', label: 'Love Story' },
+    { id: 'timeline', label: 'Timeline' },
+    { id: 'seating', label: 'Seating' },
+    { id: 'menu', label: 'Menu' },
+    { id: 'honeymoon', label: 'Honeymoon' },
+    { id: 'awards', label: 'Awards' },
+    { id: 'thank-you', label: 'Thank You' },
+  ]
+
+  const currentIndex = PAGES.findIndex((p) => p.id === page)
+  const prevPage = currentIndex > 0 ? PAGES[currentIndex - 1] : null
+  const nextPage = currentIndex < PAGES.length - 1 ? PAGES[currentIndex + 1] : null
 
   return (
     <div className="app-root">
@@ -34,7 +49,7 @@ function App() {
         {page === 'love-story' && (
           <section id="love-story" className="section">
             <h2>Our Love Story</h2>
-            <LoveStory timeline={sampleData.loveStory} />
+            <LoveStory />
           </section>
         )}
 
@@ -81,7 +96,31 @@ function App() {
         )}
       </main>
 
-      <footer className="footer">Made with ❤️ — Please reach out for updates or corrections</footer>
+      <footer className="footer">
+        <div className="footer-side left">
+          <button
+            className="nav-btn prev"
+            onClick={() => prevPage && setPage(prevPage.id)}
+            disabled={!prevPage}
+            aria-label={prevPage ? `Previous: ${prevPage.label}` : 'No previous page'}
+          >
+            ← {prevPage ? prevPage.label : ''}
+          </button>
+        </div>
+
+        <div className="footer-center">Made with ❤️ — Please reach out for updates or corrections</div>
+
+        <div className="footer-side right">
+          <button
+            className="nav-btn next"
+            onClick={() => nextPage && setPage(nextPage.id)}
+            disabled={!nextPage}
+            aria-label={nextPage ? `Next: ${nextPage.label}` : 'No next page'}
+          >
+            {nextPage ? nextPage.label : ''} →
+          </button>
+        </div>
+      </footer>
     </div>
   )
 }
