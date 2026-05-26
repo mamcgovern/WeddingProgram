@@ -41,18 +41,18 @@ export default function Header({ onNavigate, currentPage }) {
                     </button>
                     {open && (
                         <ul className="dropdown-menu show" style={{ position: 'absolute', right: 10 }}>
-                                            {PAGES.map((p) => (
-                                                <li key={p.id}>
-                                                    <a
-                                                        className={`dropdown-item ${currentPage === p.id ? 'active' : ''}`}
-                                                        href={`#${p.id}`}
-                                                        aria-current={currentPage === p.id ? 'page' : undefined}
-                                                        onClick={(e) => handleNavigate(e, p.id)}
-                                                    >
-                                                        {p.label}
-                                                    </a>
-                                                </li>
-                                            ))}
+                            {PAGES.map((p) => (
+                                <li key={p.id}>
+                                    <a
+                                        className={`dropdown-item ${currentPage === p.id ? 'active' : ''}`}
+                                        href={`#${p.id}`}
+                                        aria-current={currentPage === p.id ? 'page' : undefined}
+                                        onClick={(e) => handleNavigate(e, p.id)}
+                                    >
+                                        {p.label}
+                                    </a>
+                                </li>
+                            ))}
                         </ul>
                     )}
                 </div>
