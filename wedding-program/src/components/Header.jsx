@@ -7,7 +7,6 @@ const PAGES = [
     { id: 'timeline', label: 'Timeline' },
     { id: 'seating', label: 'Seating' },
     { id: 'menu', label: 'Menu' },
-    { id: 'honeymoon', label: 'Honeymoon' },
     { id: 'awards', label: 'Awards' },
     { id: 'thank-you', label: 'Thank You' },
 ]
