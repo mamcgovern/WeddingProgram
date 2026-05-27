@@ -1,32 +1,27 @@
 [
     {
         "title": "First to RSVP",
-        "description": "Toph McGovern",
-        "name": "",
-        "photo": "/images/guestAwards/"
+        "name": "Toph McGovern",
+        "photo": "/images/awards/Toph.jpeg"
     },
     {
         "title": "Traveled the Farthest",
-        "description": "",
         "name": "",
-        "photo": "/images/guestAwards/"
+        "photo": "/images/awards/Default.webp"
     },
     {
         "title": "First to Buy a Gift",
-        "description": "",
         "name": "Damien McGovern",
-        "photo": "/images/guestAwards/"
+        "photo": "/images/awards/Damien.jpeg"
     },
     {
-        "title": "",
-        "description": "",
-        "name": "",
-        "photo": "/images/guestAwards/"
+        "title": "Best Song Recommendation",
+        "name": "Nathan Wilson",
+        "photo": "/images/awards/Nathan.jpeg"
     },
     {
-        "title": "",
-        "description": "",
-        "name": "",
-        "photo": "/images/guestAwards/"
+        "title": "Test",
+        "name": "Test name",
+        "photo": "/images/awards/Default.webp"
     }
 ]
