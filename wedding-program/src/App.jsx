@@ -20,7 +20,6 @@ function App() {
     { id: 'timeline', label: 'Timeline' },
     { id: 'seating', label: 'Seating' },
     { id: 'menu', label: 'Menu' },
-    { id: 'honeymoon', label: 'Honeymoon' },
     { id: 'awards', label: 'Awards' },
     { id: 'thank-you', label: 'Thank You' },
   ]
@@ -70,13 +69,6 @@ function App() {
           <section id="menu" className="section">
             <h2>Menu & Drinks</h2>
             <MenuDrinks menu={sampleData.menu} drinks={sampleData.drinks} />
-          </section>
-        )}
-
-        {page === 'honeymoon' && (
-          <section id="honeymoon" className="section">
-            <h2>Honeymoon</h2>
-            <Honeymoon info={sampleData.honeymoon} />
           </section>
         )}
 
