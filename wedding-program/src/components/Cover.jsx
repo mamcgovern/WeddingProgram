@@ -30,7 +30,7 @@ export default function Cover({ onEnter }) {
         </h1>
 
         <p className="cover-sub">
-          We're getting married — welcome to our program
+          We're getting married! Welcome to our program!
         </p>
 
         <button

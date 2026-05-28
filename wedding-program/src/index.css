@@ -262,8 +262,36 @@ body {
   /* ✅ removes header gap */
   margin-top: calc(-1 * var(--header-height) + 50px);
 
-  background: black;
+  background: var(--bg);
 }
+
+
+/* ✅ gradient lives HERE instead */
+.cover-carousel::after {
+
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+
+  height: 25%;
+  /* smaller fade area */
+
+  background: linear-gradient(to bottom,
+      rgba(0, 0, 0, 0) 40%,
+      /* no fade for most of image */
+      rgba(237, 233, 227, 0.25) 75%,
+      /* gentle blend */
+      var(--bg) 100%
+      /* only fully solid at very bottom */
+    );
+
+  pointer-events: none;
+  z-index: 5;
+
+}
+
 
 /* exact 1600x500 feel */
 .cover-carousel {
@@ -275,6 +303,14 @@ body {
   line-height: 0;
 }
 
+.cover-carousel {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 5;
+  line-height: 0;
+}
+
+
 /* remove bootstrap spacing completely */
 .cover-carousel,
 .cover-carousel .carousel,
@@ -284,6 +320,7 @@ body {
   padding: 0 !important;
   height: 100%;
 }
+
 
 /* image fill */
 .cover-image {
@@ -299,16 +336,22 @@ body {
   opacity: 0;
   transition: opacity 0.8s ease-in-out;
 }
+
 .carousel-fade .carousel-item.active {
   opacity: 1;
 }
 
 /* TEXT SECTION */
+
 .cover-text {
   text-align: center;
-  padding: 3rem 1.5rem 4rem;
-  background: var(--bg);
+  padding: 2rem 1.5rem 4rem; /* reduce top padding */
+
+  margin-top: -40px; /* 👈 pulls text upward into the fade */
+  position: relative;
+  z-index: 10; /* ensure it sits above gradient */
 }
+
 
 .couple-name {
   font-family: var(--script);
