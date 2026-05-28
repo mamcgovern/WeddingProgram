@@ -17,7 +17,11 @@ export default function Cover({ onEnter }) {
         >
           {coverImages.map((img, index) => (
             <Carousel.Item key={index}>
-              <img className="cover-image" src={img} alt="" />
+              <img
+                  src={import.meta.env.BASE_URL + img}
+                  alt=""
+                  className="cover-image"
+                />
             </Carousel.Item>
           ))}
         </Carousel>
