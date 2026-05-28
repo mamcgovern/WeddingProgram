@@ -3,11 +3,8 @@ import React, { useState, useRef, useEffect } from 'react'
 const PAGES = [
     { id: 'cover', label: 'Home' },
     { id: 'wedding-party', label: 'Wedding Party' },
-    { id: 'love-story', label: 'Love Story' },
     { id: 'timeline', label: 'Timeline' },
     { id: 'seating', label: 'Seating' },
-    { id: 'menu', label: 'Menu' },
-    { id: 'awards', label: 'Awards' },
     { id: 'thank-you', label: 'Thank You' },
 ]
 

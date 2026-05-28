@@ -277,13 +277,6 @@ nav.navbar .container {
 .btn.btn-outline-light:hover { background: var(--secondary); color: var(--primary-dark) }
 .btn.btn-outline-light:focus { box-shadow: 0 0 0 3px rgba(107,112,92,0.12); outline: none }
 /* Cover styles */
-.cover {
-  display: grid;
-  place-items: center;
-  padding: 60px 20px;
-  background: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(231,202,194,0.2) 100%);
-  text-align: center;
-}
 .cover .couple-name {
   font-family: var(--script);
   font-size: 64px;

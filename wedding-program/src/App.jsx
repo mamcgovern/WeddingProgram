@@ -5,7 +5,6 @@ import WeddingParty from './components/WeddingParty.jsx'
 import ThankYou from './components/ThankYou.jsx'
 import WeddingTimeline from './components/WeddingTimeline.jsx'
 import SeatingChart from './components/SeatingChart.jsx'
-import MenuDrinks from './components/MenuDrinks.jsx'
 import Cover from './components/Cover.jsx'
 import sampleData from './data/sampleData'
 
@@ -16,7 +15,6 @@ function App() {
     { id: 'wedding-party', label: 'Wedding Party' },
     { id: 'timeline', label: 'Timeline' },
     { id: 'seating', label: 'Seating' },
-    { id: 'menu', label: 'Menu' },
     { id: 'thank-you', label: 'Thank You' },
   ]
 
@@ -51,13 +49,6 @@ function App() {
           <section id="seating" className="section">
             <h2>Seating Chart</h2>
             <SeatingChart seating={sampleData.seating} />
-          </section>
-        )}
-
-        {page === 'menu' && (
-          <section id="menu" className="section">
-            <h2>Menu & Drinks</h2>
-            <MenuDrinks menu={sampleData.menu} drinks={sampleData.drinks} />
           </section>
         )}
 

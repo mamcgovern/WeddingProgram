@@ -1,12 +1,13 @@
 import React from 'react'
-// TODO:
-export default function ThankYou({ letter }) {
-  if (!letter) return null
+import message from '../data/thankYou.json'
+
+export default function ThankYou() {
+  if (!message) return null
   return (
     <article className="thankyou">
-      <p>{letter.opening}</p>
-      <p>{letter.body}</p>
-      <p className="sign">— {letter.signature}</p>
+      <p>{message.opening}</p>
+      <p>{message.body}</p>
+      <p className="sign">— {message.signature}</p>
     </article>
   )
 }

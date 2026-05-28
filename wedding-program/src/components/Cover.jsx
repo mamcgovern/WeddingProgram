@@ -1,16 +1,46 @@
 import React from 'react'
-import sampleData from '../data/sampleData'
-// TODO: Add photos and make it look nice
+import Carousel from 'react-bootstrap/Carousel'
+import coverImages from '../data/coverImages.json'
+
 export default function Cover({ onEnter }) {
   return (
     <section className="cover">
-      <div className="cover-inner">
-        <h1 className="couple-name">Maddelynne & Nicholas</h1>
-        <p className="cover-sub">We're getting married — welcome to our program</p>
-        <button className="enter-btn" onClick={() => onEnter && onEnter()}>
+
+      {/* IMAGE */}
+      <div className="cover-carousel">
+        <Carousel
+          className="cover-carousel"
+          fade
+          interval={5000}
+          controls={false}
+          indicators={false}
+        >
+          {coverImages.map((img, index) => (
+            <Carousel.Item key={index}>
+              <img className="cover-image" src={img} alt="" />
+            </Carousel.Item>
+          ))}
+        </Carousel>
+      </div>
+
+      {/* TEXT BELOW IMAGE */}
+      <div className="cover-text">
+        <h1 className="couple-name">
+          Maddelynne & Nicholas
+        </h1>
+
+        <p className="cover-sub">
+          We're getting married — welcome to our program
+        </p>
+
+        <button
+          className="enter-btn"
+          onClick={() => onEnter?.()}
+        >
           Enter
         </button>
       </div>
+
     </section>
   )
 }
