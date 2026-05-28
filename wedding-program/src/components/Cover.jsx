@@ -34,7 +34,7 @@ export default function Cover({ onEnter }) {
         </h1>
 
         <p className="cover-sub">
-          We're getting married! Welcome to our program!
+          The Bergans | 04.24.2027
         </p>
 
         <button
