@@ -6,7 +6,6 @@ import ThankYou from './components/ThankYou.jsx'
 import WeddingTimeline from './components/WeddingTimeline.jsx'
 import SeatingChart from './components/SeatingChart.jsx'
 import Cover from './components/Cover.jsx'
-import sampleData from './data/sampleData'
 
 function App() {
   const [page, setPage] = useState('cover')
