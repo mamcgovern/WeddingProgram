@@ -10,7 +10,6 @@ export default function WeddingTimeline() {
 
   return (
     <div className="timeline-wrapper">
-      <h1 className="timeline-title">Wedding Day Timeline</h1>
 
       <div className="timeline">
         {timeline.map((item, index) => (
