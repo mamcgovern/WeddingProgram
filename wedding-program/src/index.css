@@ -180,6 +180,14 @@ body {
   gap: 2rem;
 }
 
+
+@media (max-width: 900px) {
+  .seating-chart {
+    grid-template-columns: 1fr; /* ✅ single column */
+  }
+}
+
+
 .table-card {
   position: relative;
   overflow: hidden;
