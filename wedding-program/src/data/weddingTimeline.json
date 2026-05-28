@@ -1,42 +1,37 @@
 [
-    {
-        "event": "Ceremony",
-        "time": "3:00 PM",
-        "photo": ""
-    },
-    {
-        "event": "Photos",
-        "time": "3:30 PM",
-        "photo": ""
-    },
-    {
-        "event": "Cocktail Hour",
-        "time": "4:00 PM",
-        "photo": ""
-    },
-    {
-        "event": "Reception",
-        "time": "5:00 PM",
-        "photo": ""
-    },
-    {
-        "event": "Dinner & Toasts",
-        "time": "#",
-        "photo": ""
-    },
-    {
-        "event": "First Dance",
-        "time": "#",
-        "photo": ""
-    },
-    {
-        "event": "Final Dance",
-        "time": "9:55 PM",
-        "photo": ""
-    },
-    {
-        "event": "Reception Ends",
-        "time": "10:00 PM",
-        "photo": ""
-    }
+  {
+    "event": "Ceremony",
+    "time": "3:00 PM",
+    "photo": "/images/timeline/Ceremony.png"
+  },
+  {
+    "event": "Cocktail Hour",
+    "time": "4:00 PM",
+    "photo": "/images/timeline/CocktailHour.png"
+  },
+  {
+    "event": "Reception",
+    "time": "5:00 PM",
+    "photo": "/images/timeline/Reception.png"
+  },
+  {
+    "event": "Dinner and Toasts",
+    "time": "",
+    "photo": "/images/timeline/Dinner.png"
+  },
+  {
+    "event": "First Dance",
+    "time": "",
+    "photo": "/images/timeline/FirstDance.png"
+  },
+  {
+    "event": "Final Song",
+    "time": "9:55 PM",
+    "photo": "/images/timeline/FinalSong.png"
+  },
+  {
+    "event": "Reception Ends",
+    "time": "10:00 PM",
+    "photo": "/images/timeline/ReceptionEnds.png"
+  }
 ]

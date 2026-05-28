@@ -40,21 +40,21 @@ function App() {
         {page === 'timeline' && (
           <section id="timeline" className="section">
             <h2>Wedding Day Timeline</h2>
-            <WeddingTimeline events={sampleData.timeline} />
+            <WeddingTimeline />
           </section>
         )}
 
         {page === 'seating' && (
           <section id="seating" className="section">
             <h2>Seating Chart</h2>
-            <SeatingChart seating={sampleData.seating} />
+            <SeatingChart />
           </section>
         )}
 
         {page === 'thank-you' && (
           <section id="thank-you" className="section">
             <h2>Thank You</h2>
-            <ThankYou letter={sampleData.thankYou} />
+            <ThankYou />
           </section>
         )}
       </main>
