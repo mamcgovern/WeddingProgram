@@ -3,11 +3,9 @@ import { useState } from 'react'
 import Header from './components/Header.jsx'
 import WeddingParty from './components/WeddingParty.jsx'
 import ThankYou from './components/ThankYou.jsx'
-import LoveStory from './components/LoveStory.jsx'
 import WeddingTimeline from './components/WeddingTimeline.jsx'
 import SeatingChart from './components/SeatingChart.jsx'
 import MenuDrinks from './components/MenuDrinks.jsx'
-import GuestAwards from './components/GuestAwards.jsx'
 import Cover from './components/Cover.jsx'
 import sampleData from './data/sampleData'
 
@@ -16,11 +14,9 @@ function App() {
   const PAGES = [
     { id: 'cover', label: 'Home' },
     { id: 'wedding-party', label: 'Wedding Party' },
-    { id: 'love-story', label: 'Love Story' },
     { id: 'timeline', label: 'Timeline' },
     { id: 'seating', label: 'Seating' },
     { id: 'menu', label: 'Menu' },
-    { id: 'awards', label: 'Awards' },
     { id: 'thank-you', label: 'Thank You' },
   ]
 
@@ -44,13 +40,6 @@ function App() {
           </section>
         )}
 
-        {page === 'love-story' && (
-          <section id="love-story" className="section">
-            <h2>Our Love Story</h2>
-            <LoveStory />
-          </section>
-        )}
-
         {page === 'timeline' && (
           <section id="timeline" className="section">
             <h2>Wedding Day Timeline</h2>
@@ -69,13 +58,6 @@ function App() {
           <section id="menu" className="section">
             <h2>Menu & Drinks</h2>
             <MenuDrinks menu={sampleData.menu} drinks={sampleData.drinks} />
-          </section>
-        )}
-
-        {page === 'awards' && (
-          <section id="awards" className="section">
-            <h2>Guest Awards</h2>
-            <GuestAwards awards={sampleData.awards} />
           </section>
         )}
 
