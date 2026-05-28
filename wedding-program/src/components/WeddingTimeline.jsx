@@ -29,13 +29,15 @@ export default function WeddingTimeline() {
             {/* CONTENT */}
             <div className="timeline-content">
 
+
               {item.photo && (
                 <img
-                  className="timeline-image"
-                  src={item.photo}
+                  src={import.meta.env.BASE_URL + item.photo}
                   alt={item.event}
+                  className="timeline-image"
                 />
               )}
+
 
               <div className="timeline-event">
                 {item.event}
