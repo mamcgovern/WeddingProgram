@@ -21,7 +21,11 @@ function Group({ title, members = [] }) {
           <div key={member.name} className="party-card">
             <div className="avatar" aria-hidden>
               {member.photo ? (
-                <img src={member.photo} alt={member.name} className="avatar-img" />
+                <img
+                  src={import.meta.env.BASE_URL + member.photo}
+                  alt={member.name}
+                  className="avatar-image"
+                />
               ) : (
                 (member.initials || initialsOf(member.name))
               )}
